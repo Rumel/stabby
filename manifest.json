@@ -1,0 +1,14 @@
+{
+  "name": "Stabby",
+  "version": "1.0",
+  "description": "Extensions for Backstabbr",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://www.backstabbr.com/game/*"],
+      "css": ["styles.css"],
+      "js": ["script.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
