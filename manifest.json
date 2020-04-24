@@ -6,7 +6,6 @@
   "content_scripts": [
     {
       "matches": ["*://www.backstabbr.com/game/*"],
-      "css": ["styles.css"],
       "js": ["script.js"],
       "run_at": "document_idle"
     }
